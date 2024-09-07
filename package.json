@@ -2,10 +2,10 @@
   "name": "node-facebook-marketplace",
   "version": "1.0.0",
   "description": "auto publish marketplace items",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch src --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm server.ts"
+    "start": "nodemon --exec node --loader ts-node/esm server.ts"
   },
   "author": "Eddy",
   "license": "ISC",
